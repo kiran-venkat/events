@@ -62,13 +62,13 @@
     width: 100%;
     min-height: 50px;
     font-family: var(--font-family);
-    font-weight: 400;
+    font-weight: 800;
     font-size: 20px;
     line-height: 28px;
-    background: #FF4820;
-    border: 2px solid #FF4820;
+    background: #FFFF25;
+    border: 2px solid #FFFF25;
     padding: 0 1rem;
-    color: #fff;
+    color: rgb(0, 0, 0);
     cursor: pointer;
     outline: none;
 
