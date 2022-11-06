@@ -17,8 +17,8 @@
 }
 
 .gpt3__features-heading h1 {
-    font-size: 34px;
-    line-height: 45px;
+    font-size: 100px;
+    line-height: 120px;
     font-weight: 800;
     font-family: var(--font-family);
 }
@@ -37,7 +37,7 @@
     flex: 1.5;
     display: flex;
     justify-content: flex-start;
-    align-items: center;
+    align-items: left;
     flex-direction: column;
 }
 
