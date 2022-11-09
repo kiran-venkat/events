@@ -19,9 +19,9 @@ const Brand = () => (
         <img src={shopify} />
       </div>
     </div>
-      <div className="gpt3__blog-heading">
-        <h1>Key Note Speakers</h1> <br /> <br />
-      </div>
+    <div className="gpt3__blog-heading">
+      <h1>Key Note Speakers</h1> <br /> <br />
+    </div>
   </div>
 );
 
