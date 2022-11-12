@@ -15,7 +15,7 @@ const Navbar = () => {
         </div>
         <div className="gpt3__navbar-links_container">
           <p><a href="#home">Home</a></p>
-          <p><a href="#wgpt3">Events</a></p>
+          <p><a href="#wgpt3">Event</a></p>
           <p><a href="#possibility">Features</a></p>
           <p><a href="#features">Comments</a></p>
           <p><a href="#blog">About Us</a></p>
