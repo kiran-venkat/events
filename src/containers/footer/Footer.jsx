@@ -2,6 +2,7 @@ import React, { useRef } from "react";
 import gpt3Logo from '../../logo.svg';
 import './footer.css';
 import styled from "styled-components";
+import emailjs from "@emailjs/browser";
 
 const Footer = () => {
   const form = useRef();
@@ -11,10 +12,10 @@ const Footer = () => {
 
     emailjs
       .sendForm(
-        "replace with service id",
-        "replace with template id",
+        'service_0g6fr7m',
+        'template_myrcmbl',
         form.current,
-        "replace with user id"
+        'N0p0biKtyN7oFDwuB'
       )
       .then(
         (result) => {
@@ -98,6 +99,7 @@ const StyledContactForm = styled.div`
       color: white;
       border: 1rem;
       font-size: 15px;
+
     }
   }
 `;
