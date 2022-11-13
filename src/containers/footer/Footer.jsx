@@ -13,7 +13,7 @@ const Footer = () => {
     emailjs
       .sendForm(
         'service_0g6fr7m',
-        'template_myrcmbl',
+        'template_47siyra',
         form.current,
         'N0p0biKtyN7oFDwuB'
       )
@@ -21,6 +21,7 @@ const Footer = () => {
         (result) => {
           console.log(result.text);
           console.log("message sent");
+          e.target.reset();
         },
         (error) => {
           console.log(error.text);
