@@ -1,5 +1,4 @@
 import React, { useRef } from "react";
-import gpt3Logo from '../../logo.svg';
 import './footer.css';
 import styled from "styled-components";
 import emailjs from "@emailjs/browser";
@@ -31,6 +30,11 @@ const Footer = () => {
 
   return (
     <StyledContactForm className="gpt3__footer">
+
+<div className="gpt3__contactus">
+      <h1>Contact Us</h1> <br /> <br />
+      </div>
+
       <form ref={form} onSubmit={sendEmail}>
         <label>Name</label>
         <input type="text" name="user_name" />
@@ -40,6 +44,8 @@ const Footer = () => {
         <textarea name="message" />
         <input type="submit" value="Send" />
       </form>
+
+
     </StyledContactForm>
   );
 };
@@ -49,13 +55,15 @@ export default Footer;
 // Styles
 const StyledContactForm = styled.div`
   width: 900px;
-  height: 490px;
+  height: 550px;
+  align-items: right;
 
   form {
     display: flex;
     align-items: flex-start;
     flex-direction: column;
-    width: 80%;
+    width: 90%;
+    margin-bottom: 200px;
     font-size: 28px;
     color: white;
     font-family: var(--font-family);
@@ -63,10 +71,10 @@ const StyledContactForm = styled.div`
     input {
       width: 100%;
       height: 35px;
-      padding: 20px;
+      padding: 25px;
       outline: none;
       border-radius: 5px;
-      border: 2px solid rgb(220, 220, 220);
+      border: 2px solid rgb(220, 220, 220); 
 
       &:focus {
         border: 5px solid rgba(0, 206, 158, 1);
@@ -90,11 +98,15 @@ const StyledContactForm = styled.div`
     }
 
     label {
-      margin-top: 1.9rem;
+      margin-top: 0rem;
+    }
+
+    form{
+      margin-top:10px;
     }
 
     input[type="submit"] {
-      margin-top: 1.5rem;
+      margin-top: 1rem;
       cursor: pointer;
       background: rgb(249, 105, 14);
       color: white;
@@ -105,47 +117,6 @@ const StyledContactForm = styled.div`
   }
 `;
 
-
-
-// import React, { useState } from 'react'
-
-// const Contact = () => {
-
-//   const [name, setName] = useState('');
-//   const [email, setEmail] = useState('');
-//   const [message, setMessage] = useState('');
-//   const [emailSent, setEmailSent] = useState(false);
-
-//     return (
-//         <div id="contact-form">
-//         <input type="text" placeholder="Your Name" value={name} onChange={e => setName(e.target.value)} />
-//         <input type="email" placeholder="Your email address" value={email} onChange={e => setEmail(e.target.value)} />
-//         <textarea placeholder="Your message" value={message} onChange={e => setMessage(e.target.value)}></textarea>
-//         <button onClick={submit}>Send Message</button>
-//         <span className={emailSent ? 'visible' : null}>Thank you for your message, we will be in touch in no time!</span>
-//         </div>
-//     );
-// };
-
-// const submit = () => {
-//   if (name && email && message) {
-//      // TODO - send mail
-
-//       setName('');
-//       setEmail('');
-//       setMessage('');
-//       setEmailSent(true);
-//   } else {
-//       alert('Please fill in all fields.');
-//   }
-// }
-
-// export default Contact;
-
-// const isValidEmail = email => {
-//   const regex = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-//   return regex.test(String(email).toLowerCase());
-// };
 
 
 

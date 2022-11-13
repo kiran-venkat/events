@@ -19,4 +19,14 @@
     background: var(--color-footer);
 
   }
+
+  .gpt3__contactus h1{
+    font-size: 54px;
+    line-height: -1px;
+    font-weight: 700;
+    font-family: var(--font-family);
+    color: yellow;
+
+
+}
   
