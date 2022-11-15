@@ -3,7 +3,7 @@
     flex-direction: column;
 
     padding: 2rem;
-    background: var(--color-footer);
+    background: rgb(1,41,112);
 
     /* ff 3.6+ */
     /* background:-moz-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%); */
@@ -65,7 +65,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    
+    color: rgb(1,41,112);
     margin: 4rem 0 2rem;
 }
 
@@ -100,6 +100,13 @@
     min-width: 210px;
     display: unset;
     flex-direction: column;
+}
+
+.wgpt3_text {
+    background: white;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 /* Customizing feature component as per needs */

@@ -26,7 +26,7 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
-    color: var(--color-text);
+    color: rgb(1,41,112);
 
     margin-top: 1.5rem;
 }
@@ -51,7 +51,7 @@
     border: 2px solid var(--color-footer);
     padding: 0 1rem;
     outline: none;
-    color: #fff;
+    color: rgb(1,41,112);
 
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
@@ -65,8 +65,8 @@
     font-weight: 800;
     font-size: 20px;
     line-height: 28px;
-    background: #FFFF25;
-    border: 2px solid #FFFF25;
+    background: rgb(1,41,112);
+    border: 2px solid rgb(1,41,112);
     padding: 0 1rem;
     color: rgb(0, 0, 0);
     cursor: pointer;

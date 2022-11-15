@@ -12,12 +12,12 @@ const Possibility = () => (
         Direct Collaboration with
         <br /> Colleges clubs.
       </h1>
-      <p>
+      {/* <p>
         <li>Focus on both Online & Offline Events.</li>
         <li>We Invite Speakers without any monetary benefit.</li>
         <li>Focus on both Online & Offline Events</li>
         <li>covered dynamic topics.</li>
-      </p>
+      </p> */}
     </div>
   </div>
 );

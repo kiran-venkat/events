@@ -11,7 +11,7 @@ const WhatGPT3 = () => (
       />
     </div>
     <div className="gpt3__whatgpt3-heading">
-      <h1 className="gradient__text">
+      <h1 className="wgpt3_text">
         Our ultimate aim is to fill the gap between tier 3 and tier 1 colleges
         by conducting dynamic events and empowering every student get access to
         enhanced learning experience and amazing people.

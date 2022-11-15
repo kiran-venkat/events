@@ -41,9 +41,10 @@
 .gpt3__possibility-content h1 {
     font-family: var(--font-family);
     font-weight: 800;
-    font-size: 50px;
+    font-size: 40px;
     line-height: 55px;
     margin: 4rem 0;
+    margin-bottom: 14rem;
 }
 
 .gpt3__possibility-content p {

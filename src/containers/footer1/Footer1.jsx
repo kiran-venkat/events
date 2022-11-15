@@ -18,22 +18,22 @@ const Footer1 = () => (
         <p className="logo-text">EVNTORG</p> <br />
         {/* <img src={gpt3Logo} alt="EventOrg" /> */}
         <p>
-          eventorg@gmail.com, <br /> <br /> All Rights Reserved
+          evntorg@gmail.com, <br /> <br /> All Rights Reserved
         </p>
       </div>
       <div className="gpt3__footer-links_div">
-        <h4>Links</h4>
+        {/* <h4>Links</h4>
         <p>Overons</p>
         <p>Social Media</p>
         <p>Counters</p>
-        <p>Contact</p>
+        <p>Contact</p> */}
       </div>
-      <div className="gpt3__footer-links_div">
+      {/* <div className="gpt3__footer-links_div">
         <h4>Company</h4>
         <p>Terms & Conditions </p>
         <p>Privacy Policy</p>
         <p>Contact</p>
-      </div>
+      </div> */}
       <div className="gpt3__footer-links_div">
         <h4>Get in touch</h4>
         <p>eventorg@gmail.com</p>

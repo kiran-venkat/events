@@ -6,20 +6,20 @@
 }
 
 body {
-  background: var(--color-bg);
+  background: #E6EDF3;
 }
 
 a {
-  color: unset;
+  color: rgb(1,41,112);
   text-decoration: none;
 }
 
 .gradient__bg {
-  background-color: #252525;
+  background-color: #E6EDF3;
 }
 
 .gradient__text {
-  background: var(--gradient-text);
+  background: rgb(1,41,112);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

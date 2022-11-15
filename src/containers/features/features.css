@@ -39,6 +39,7 @@
     justify-content: flex-start;
     align-items: left;
     flex-direction: column;
+    
 }
 
 @media screen and (max-width: 990px) {
