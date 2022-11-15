@@ -3,13 +3,11 @@ import Article from '../../components/article/Article';
 import { blog01, blog02, blog03, blog04, blog05 } from './imports';
 import './blog.css';
 
-const Blog = () => (
+const Blog1 = () => (
   <div className="gpt3__blog section__padding" id="blog">
     <div className="gpt3__blogg-heading">
-      <h1 className="gradient__text">A lot is happening, <br /> Check out our events.</h1>
-      <br></br>
-      <br></br>
-      <h1>Past Events</h1>
+      {/* <h1 className="gradient__text">A lot is happening, <br /> Check out our events.</h1> */}
+      <h1>Upcoming Events</h1>
     </div>
     <div className="gpt3__blog-container">
       <div className="gpt3__blog-container_groupA">
@@ -25,4 +23,4 @@ const Blog = () => (
   </div>
 );
 
-export default Blog;
+export default Blog1;

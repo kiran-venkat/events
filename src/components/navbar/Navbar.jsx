@@ -15,10 +15,11 @@ const Navbar = () => {
         </div>
         <div className="gpt3__navbar-links_container">
           <p><a href="#home">Home</a></p>
-          <p><a href="#wgpt3">Event</a></p>
-          <p><a href="#possibility">Features</a></p>
-          <p><a href="#features">Comments</a></p>
-          <p><a href="#blog">About Us</a></p>
+          <p><a href="#wgpt3">Mission</a></p>
+          <p><a href="#features">Features</a></p>
+          <p><a href="#possibility">Comments</a></p>
+          <p><a href="#blog">Events</a></p>
+          <p><a href="#footer">Contact Us</a></p>
         </div>
       </div>
       {/* <div className="gpt3__navbar-sign">
@@ -33,10 +34,11 @@ const Navbar = () => {
           <div className="gpt3__navbar-menu_container scale-up-center">
             <div className="gpt3__navbar-menu_container-links">
               <p><a href="#home">Home</a></p>
-              <p><a href="#wgpt3">Events</a></p>
-              <p><a href="#possibility">Features</a></p>
-              <p><a href="#features">Comments</a></p>
-              <p><a href="#blog">About Us</a></p>
+              <p><a href="#wgpt3">Mission</a></p>
+              <p><a href="#features">Features</a></p>
+              <p><a href="#possibility">Comments</a></p>
+              <p><a href="#blog">Events</a></p>
+              <p><a href="#footer">Contact Us</a></p>
             </div>
             <div className="gpt3__navbar-menu_container-links-sign">
               <p>Sign in</p>
@@ -48,5 +50,6 @@ const Navbar = () => {
     </div>
   );
 };
+
 
 export default Navbar;

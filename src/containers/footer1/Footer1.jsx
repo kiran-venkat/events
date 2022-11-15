@@ -1,7 +1,7 @@
 import React from "react";
-import gpt3Logo from '../../logo.svg';
-import './footer1.css';
-
+import gpt3Logo from "../../logo.svg";
+import "./footer1.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const Footer1 = () => (
   <div className="gpt3__footer1 section__padding">
@@ -15,9 +15,11 @@ const Footer1 = () => (
 
     <div className="gpt3__footer-links">
       <div className="gpt3__footer-links_logo">
-        <p className="logo-text">EVNTORG</p> <br/>
+        <p className="logo-text">EVNTORG</p> <br />
         {/* <img src={gpt3Logo} alt="EventOrg" /> */}
-        <p>eventorg@gmail.com, <br /> <br /> All Rights Reserved</p>
+        <p>
+          eventorg@gmail.com, <br /> <br /> All Rights Reserved
+        </p>
       </div>
       <div className="gpt3__footer-links_div">
         <h4>Links</h4>
@@ -35,14 +37,14 @@ const Footer1 = () => (
       <div className="gpt3__footer-links_div">
         <h4>Get in touch</h4>
         <p>eventorg@gmail.com</p>
-        <p>626620514</p>
-        <p>9315677209</p>
+        {/* <p>626620514</p>
+        <p>9315677209</p> */}
         <p>New Delhi</p>
       </div>
     </div>
 
     <div className="gpt3__footer-copyright">
-      <p>@2021 EventOrg. All rights reserved.</p>
+      <p>@2022 EventOrg. All rights reserved.</p>
     </div>
   </div>
 );

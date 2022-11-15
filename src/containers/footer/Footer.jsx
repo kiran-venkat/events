@@ -29,7 +29,7 @@ const Footer = () => {
   };
 
   return (
-    <StyledContactForm className="gpt3__footer">
+    <StyledContactForm className="gpt3__footer" id = "footer">
 
 <div className="gpt3__contactus">
       <h1>Contact Us</h1> <br /> <br />
@@ -37,6 +37,8 @@ const Footer = () => {
 
       <form ref={form} onSubmit={sendEmail}>
         <label>Name</label>
+        <input type="text" name="user_name" />
+        <label>College Name</label>
         <input type="text" name="user_name" />
         <label>Email</label>
         <input type="email" name="user_email" />
@@ -55,7 +57,7 @@ export default Footer;
 // Styles
 const StyledContactForm = styled.div`
   width: 900px;
-  height: 550px;
+  height: 650px;
   align-items: right;
 
   form {
