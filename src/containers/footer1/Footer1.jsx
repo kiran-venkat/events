@@ -2,6 +2,9 @@ import React from "react";
 import gpt3Logo from "../../logo.svg";
 import "./footer1.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "../../containers/socialfollow/SocialFollow"
+import SocialFollow from "../../containers/socialfollow/SocialFollow";
+
 
 const Footer1 = () => (
   <div className="gpt3__footer1 section__padding">
@@ -42,7 +45,7 @@ const Footer1 = () => (
         <p>New Delhi</p>
       </div>
     </div>
-
+    <SocialFollow />
     <div className="gpt3__footer-copyright">
       <p>@2022 EventOrg. All rights reserved.</p>
     </div>

@@ -19,7 +19,6 @@ const App = () => (
     <Brand />
     <Footer />
     <Footer1 />
-    
   </div>
   
 );
