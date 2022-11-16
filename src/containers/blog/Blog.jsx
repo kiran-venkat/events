@@ -13,13 +13,13 @@ const Blog = () => (
     </div>
     <div className="gpt3__blog-container">
       <div className="gpt3__blog-container_groupA">
-        <Article imgUrl={blog01} date="Sep 26, 2021" text="20 Online Events 2 Offline Events in IIIT-DELHI& NIET" />
+        <Article imgUrl={blog01} date="Sep 26, 2021" text="Our 3rd offline event with GDSC club. The event was very interactive among the students. Response from the students was on the top." />
       </div>
       <div className="gpt3__blog-container_groupB">
-        <Article imgUrl={blog02} date="Sep 26, 2021" text="Lorem, ipsum dolor sit amet consectetur adipisicing elit" />
-        <Article imgUrl={blog03} date="Sep 26, 2021" text="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium, iste facere! Dignissimos " />
-        <Article imgUrl={blog04} date="Sep 26, 2021" text="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium, iste facere! Dignissimos " />
-        <Article imgUrl={blog05} date="Sep 26, 2021" text="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium, iste facere! Dignissimos " />
+        <Article imgUrl={blog02} date="Sep 26, 2021" text="Our 2nd offline event in the prestigious college of India IIIT Delhi. Our speaker Adithya Arora nurtures the students with his knowledge and experience." />
+        <Article imgUrl={blog03} date="Sep 26, 2021" />
+        <Article imgUrl={blog04} date="Sep 26, 2021" />
+        <Article imgUrl={blog05} date="Sep 26, 2021" />
       </div>
     </div>
   </div>
