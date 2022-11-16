@@ -1,6 +1,10 @@
 .gpt3__possibility {
     display: flex;
     flex-direction: row;
+    background-image: url("../../assets/wave.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .gpt3__possibility-image {

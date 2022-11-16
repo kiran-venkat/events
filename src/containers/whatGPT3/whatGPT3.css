@@ -5,6 +5,8 @@
     padding: 2rem;
     background: rgb(1,41,112);
 
+    width: 100%;
+    height: 100%;
     /* ff 3.6+ */
     /* background:-moz-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%); */
 

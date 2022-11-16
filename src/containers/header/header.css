@@ -1,6 +1,7 @@
 .gpt3__header {
     display: flex;
     flex-direction: row;
+    width: 100;
 }
 
 .gpt3__header-content {
@@ -83,7 +84,7 @@
 }
 
 .header{
-    background-image: url("../../assets/wave.svg");
+    background-image: url("../../assets/wave2.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
