@@ -20,13 +20,22 @@
 
   }
 
+.submit-button button{
+  background: #FF8A71;
+}
+
   .gpt3__contactus h1{
     font-size: 54px;
     line-height: -1px;
     font-weight: 700;
     font-family: var(--font-family);
     color: #E6EDF3;
+    margin-top: 2rem;
 
 
+}
+
+.contactus{
+  margin-top: 2rem;
 }
   

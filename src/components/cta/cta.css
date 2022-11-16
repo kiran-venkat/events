@@ -10,6 +10,7 @@
     background: rgb(1,41,112);
 }
 
+
 .gpt3__cta-content {
     display: flex;
     flex-direction: column;
@@ -54,6 +55,34 @@
     outline: none;
     cursor: pointer;
     min-width: 150px;
+}
+
+.form-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.form-button button {
+    background: white;
+    color: black;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+
+    border: none;
+    outline: none;
+    cursor: pointer;
+    min-width: 150px;
+}
+
+.form-button button:hover{
+    background-color: var(--btn-color);
+    color: #fff;
 }
 
 @media screen and (max-width: 650px) {
