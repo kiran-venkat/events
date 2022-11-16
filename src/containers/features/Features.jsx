@@ -1,6 +1,10 @@
 import React from 'react';
 import Feature from '../../components/feature/Feature';
 import './features.css';
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+AOS.init();
 
 const featuresData = [
   {
@@ -30,7 +34,7 @@ const featuresData = [
 ];
 
 const Features = () => (
-  <div className="gpt3__features section__padding" id="features">
+  <div className="gpt3__features section__padding" id="features" data-aos="fade-left">
     <div className="gpt3__features-heading">
       <h1 className="gradient__text">What we offer? Why choose us?</h1>
       {/* <p>Request Early Access to Get Started</p> */}
