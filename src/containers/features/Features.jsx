@@ -9,7 +9,7 @@ AOS.init();
 const featuresData = [
   {
     title: 'Experienced industry experts',
-    text: 'From they fine john he give of rich he. They age and draw mrs like. Improving end distrusts may instantly was household applauded.',
+    text: 'We have to onboard some big creators also who can manage our brand identity.',
   },
   {
     title: 'Interactive learning',
