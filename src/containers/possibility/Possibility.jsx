@@ -1,5 +1,5 @@
 import React from "react";
-import possibilityImage from "../../assets/possibility.png";
+import club from "../../assets/club.svg";
 import "./possibility.css";
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
@@ -11,7 +11,7 @@ const Possibility = () => (
         <div className="gpt3__possibility section__padding" id="possibility">
 
             <div className="gpt3__possibility-image">
-                <img src={possibilityImage}
+                <img src={club}
                     alt="possibility"/>
             </div>
             <div className="gpt3__possibility-content">

@@ -31,6 +31,12 @@
     margin-top: 1.5rem;
 }
 
+.gradient-text {
+    background-image: linear-gradient(60deg, #FF7722,#ffa369,#73fb67,#138808);
+    background-clip: text;
+    color: transparent;
+  }
+
 .gpt3__header-content__input {
     width: 100%;
     margin: 2rem 0 1rem;
@@ -78,6 +84,9 @@
 
 .header{
     background-image: url("../../assets/wave.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     width: 100%;
     height: 100%;
 }
@@ -115,8 +124,16 @@
 }
 
 .gpt3__header-image img {
-    width: 100%;
-    height: 100%;
+    width: 50vw;
+    height: 50vh;
+}
+
+@media screen and (max-width: 800px) {
+    .gpt3__header-image img {
+        width: 100%;
+        height: 100%;
+    }
+    
 }
 
 @media screen and (max-width: 1050px) {
