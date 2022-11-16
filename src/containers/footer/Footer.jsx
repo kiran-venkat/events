@@ -32,9 +32,13 @@ const Footer = () => {
     <StyledContactForm className="gpt3__footer" id = "footer">
 
 <div className="gpt3__contactus">
-      <h1>Contact Us</h1> <br /> <br />
+      
+      <h1 className="contactus">Contact Us</h1>
       </div>
-
+    <div className="form-button">
+      <button type="button">Student</button>
+      <button type="button">Started</button>
+    </div>
       <form ref={form} onSubmit={sendEmail}>
         <label>Name</label>
         <input type="text" name="user_name" />
@@ -44,7 +48,10 @@ const Footer = () => {
         <input type="email" name="user_email" />
         <label>Message</label>
         <textarea name="message" />
-        <input type="submit" value="Send" />
+        <div className="submit-button">
+        <button type="submit">Submit</button>
+        </div>
+        
       </form>
 
 
