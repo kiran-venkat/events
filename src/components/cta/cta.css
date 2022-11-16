@@ -50,7 +50,6 @@
     line-height: 30px;
     padding: 0.5rem 1rem;
     border-radius: 2rem;
-
     border: none;
     outline: none;
     cursor: pointer;
@@ -73,17 +72,13 @@
     line-height: 30px;
     padding: 0.5rem 1rem;
     border-radius: 2rem;
-
     border: none;
     outline: none;
     cursor: pointer;
     min-width: 150px;
 }
 
-.form-button button:hover{
-    background-color: var(--btn-color);
-    color: #fff;
-}
+
 
 @media screen and (max-width: 650px) {
     .gpt3__cta {
