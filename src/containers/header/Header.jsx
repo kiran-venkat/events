@@ -1,7 +1,6 @@
 import React from "react";
-import ai from "../../assets/ai.png";
+import starter from "../../assets/starter.svg";
 import "./header.css";
-
 import AOS from "aos";
 import "aos/dist/aos.css"; // You can also use <link> for styles
 
@@ -12,7 +11,7 @@ const Header = () => (
     <div data-aos="fade-right">
       <div className="gpt3__header-content">
         <h1 className="gradient__text">
-          Join India&apos;s Largest Competetive Student Community
+          Join <span className="gradient-text">India&apos;s</span> Largest Competetive Student Community
         </h1>
         <p>
           Learn from top industry experts, build connections, join different
@@ -32,7 +31,7 @@ const Header = () => (
 
     <div data-aos="fade-left">
       <div className="gpt3__header-image">
-        <img src={ai} />
+        <img src={starter} />
       </div>
     </div>
   </div>
