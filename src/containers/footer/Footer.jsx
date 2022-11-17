@@ -9,7 +9,7 @@ AOS.init();
 
 const Footer = () => {
 
-  const [student, setstudent] = useState(true)
+  const [student,setstudent]=useState(true)
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -36,59 +36,59 @@ const Footer = () => {
 
   return (
     <div className="form-container" data-aos="fade-up">
-      <StyledContactForm className="gpt3__footer" id="footer">
+    <StyledContactForm className="gpt3__footer" id = "footer">
 
 
-        <div className="gpt3__contactus" >
-
-          <h1 className="contactus">Contact Us</h1>
+  <div className="gpt3__contactus" >
+      
+      <h1 className="contactus">Contact Us</h1>
+      </div>
+    <div className="form-button">
+      <button type="button" style={{backgroundColor:student?"var(--btn-color)":"white", color:student?"white":"black"}} onClick={()=>setstudent(true)}>Student</button>
+      <button type="button" style={{backgroundColor:student?"white":"var(--btn-color)", color:student?"black":"white"}} onClick={()=>setstudent(false)}>Organizer</button>
+    </div>
+    {
+      student?(
+        <form ref={form} onSubmit={sendEmail}>
+        <label>Name</label>
+        <input type="text" name="name" placeholder="Enter Your Name" required/>
+        <label>College Name</label>
+        <input type="text" name="college" placeholder="Enter Your College" required/>
+        <label>Branch</label>
+        <input type="text" name="branch" placeholder="Enter Your Branch" required/>
+        <label>Year</label>
+        <input type="number" name="year" placeholder="Enter Your Year" required/>
+        <label>Date of Birth</label>
+        <input type="date" name="dob" placeholder="Enter Your DOB"  required/>
+        <label>Gmail</label>
+        <input type="email" name="user_email" placeholder="Enter Your Email" required/>
+        <label>Message</label>
+        <input type="text" name="user_email" placeholder="Tell Something" required/>
+        
+        <div className="submit-button">
+        <button type="submit">Submit</button>
         </div>
-        <div className="form-button">
-          <button type="button" style={{ backgroundColor: student ? "var(--btn-color)" : "white", color: student ? "white" : "black" }} onClick={() => setstudent(true)}>Student</button>
-          <button type="button" style={{ backgroundColor: student ? "white" : "var(--btn-color)", color: student ? "black" : "white" }} onClick={() => setstudent(false)}>Organizer</button>
+        
+      </form>
+      ):(
+        <form ref={form} onSubmit={sendEmail}>
+        <label>Name</label>
+        <input type="text" name="name" placeholder="Enter Your Name" required/>
+        <label>Email</label>
+        <input type="email" name="college" placeholder="Enter Your Email" required/>
+        <label>Message</label>
+        <input type="text" name="user_email" placeholder="Tell Something" required/>
+        
+        <div className="submit-button">
+        <button type="submit">Submit</button>
         </div>
-        {
-          student ? (
-            <form ref={form} onSubmit={sendEmail}>
-              <label>Name</label>
-              <input type="text" name="name" placeholder="Enter Your Name" required />
-              <label>College Name</label>
-              <input type="text" name="college" placeholder="Enter Your College" required />
-              <label>Branch</label>
-              <input type="text" name="branch" placeholder="Enter Your Branch" required />
-              <label>Year</label>
-              <input type="number" name="year" placeholder="Enter Your Year" required />
-              <label>Date of Birth</label>
-              <input type="date" name="dob" placeholder="Enter Your DOB" required />
-              <label>Gmail</label>
-              <input type="email" name="user_email" placeholder="Enter Your Email" required />
-              <label>Message</label>
-              <input type="text" name="user_email" placeholder="Tell Something" required />
-
-              <div className="submit-button">
-                <button type="submit">Submit</button>
-              </div>
-
-            </form>
-          ) : (
-            <form ref={form} onSubmit={sendEmail}>
-              <label>Name</label>
-              <input type="text" name="name" placeholder="Enter Your Name" required />
-              <label>Email</label>
-              <input type="email" name="college" placeholder="Enter Your Email" required />
-              <label>Message</label>
-              <input type="text" name="user_email" placeholder="Tell Something" required />
-
-              <div className="submit-button">
-                <button type="submit">Submit</button>
-              </div>
-
-            </form>
-          )
-        }
-
-
-      </StyledContactForm>
+        
+      </form>
+      )
+    }
+      
+      
+    </StyledContactForm>
     </div>
   );
 };
