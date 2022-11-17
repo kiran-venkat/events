@@ -34,7 +34,7 @@ const featuresData = [
 ];
 
 const Features = () => (
-  <div className="gpt3__features" id="features" data-aos="fade-right">
+  <div className="gpt3__features section__padding" id="features" data-aos="fade-right">
     <div className="gpt3__features-heading">
       <h1 className="gradient__text">What we offer? Why choose us?</h1>
       {/* <p>Request Early Access to Get Started</p> */}
