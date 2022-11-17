@@ -8,7 +8,7 @@ import "aos/dist/aos.css"; // You can also use <link> for styles
 AOS.init();
 const Header = () => (
   <div className="gpt3__header section__padding header" id="home">
-    <div data-aos="fade-right">
+    <div>
       <div className="gpt3__header-content">
         <h1 className="gradient__text">
           Join <span className="gradient-text">India&apos;s</span> Largest Competetive Student Community
@@ -29,7 +29,7 @@ const Header = () => (
       </div>
     </div>
 
-    <div data-aos="fade-left">
+    <div>
       <div className="gpt3__header-image">
         <img src={starter} />
       </div>
