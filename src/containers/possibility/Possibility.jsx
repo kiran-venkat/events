@@ -1,5 +1,5 @@
 import React from "react";
-import possibilityImage from "../../assets/possibility.png";
+import club from "../../assets/club.svg";
 import "./possibility.css";
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
@@ -7,14 +7,14 @@ import 'aos/dist/aos.css'; // You can also use <link> for styles
 AOS.init();
 
 const Possibility = () => (
-    <div data-aos="zoom-in">
+    <div >
         <div className="gpt3__possibility section__padding" id="possibility">
 
-            <div className="gpt3__possibility-image">
-                <img src={possibilityImage}
+            <div className="gpt3__possibility-image" data-aos="fade-right">
+                <img src={club}
                     alt="possibility"/>
             </div>
-            <div className="gpt3__possibility-content">
+            <div className="gpt3__possibility-content" data-aos="fade-left">
                 <h1 className="gradient__text">
                     Direct Collaboration with
                     <br/>

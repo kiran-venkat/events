@@ -3,6 +3,7 @@
     display: flex;
     justify-content: space-between;
     flex-direction: row;
+    margin-top: var(--global-top-margin);
 }
 
 .gpt3__features-heading {
@@ -11,13 +12,14 @@
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column;
-
+    background-image: url(../../assets/wave2.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
     text-align: left;
-    margin-right: 5rem;
 }
 
 .gpt3__features-heading h1 {
-    font-size: 100px;
+    font-size: 70px;
     line-height: 120px;
     font-weight: 800;
     font-family: var(--font-family);
@@ -39,6 +41,7 @@
     justify-content: flex-start;
     align-items: left;
     flex-direction: column;
+    background-color: rgb(1,41,112);
     
 }
 

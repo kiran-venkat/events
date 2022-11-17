@@ -1,9 +1,15 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import './footer.css';
 import styled from "styled-components";
 import emailjs from "@emailjs/browser";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+AOS.init();
 
 const Footer = () => {
+
+  const [student,setstudent]=useState(true)
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -29,33 +35,61 @@ const Footer = () => {
   };
 
   return (
+    <div className="form-container" data-aos="fade-up">
     <StyledContactForm className="gpt3__footer" id = "footer">
 
-<div className="gpt3__contactus">
+
+  <div className="gpt3__contactus" >
       
       <h1 className="contactus">Contact Us</h1>
       </div>
     <div className="form-button">
-      <button type="button">Student</button>
-      <button type="button">Started</button>
+      <button type="button" style={{backgroundColor:student?"var(--btn-color)":"white", color:student?"white":"black"}} onClick={()=>setstudent(true)}>Student</button>
+      <button type="button" style={{backgroundColor:student?"white":"var(--btn-color)", color:student?"black":"white"}} onClick={()=>setstudent(false)}>Organizer</button>
     </div>
-      <form ref={form} onSubmit={sendEmail}>
+    {
+      student?(
+        <form ref={form} onSubmit={sendEmail}>
         <label>Name</label>
-        <input type="text" name="user_name" />
+        <input type="text" name="name" placeholder="Enter Your Name" required/>
         <label>College Name</label>
-        <input type="text" name="user_name" />
-        <label>Email</label>
-        <input type="email" name="user_email" />
+        <input type="text" name="college" placeholder="Enter Your College" required/>
+        <label>Branch</label>
+        <input type="text" name="branch" placeholder="Enter Your Branch" required/>
+        <label>Year</label>
+        <input type="number" name="year" placeholder="Enter Your Year" required/>
+        <label>Date of Birth</label>
+        <input type="date" name="dob" placeholder="Enter Your DOB"  required/>
+        <label>Gmail</label>
+        <input type="email" name="user_email" placeholder="Enter Your Email" required/>
         <label>Message</label>
-        <textarea name="message" />
+        <input type="text" name="user_email" placeholder="Tell Something" required/>
+        
         <div className="submit-button">
         <button type="submit">Submit</button>
         </div>
         
       </form>
-
-
+      ):(
+        <form ref={form} onSubmit={sendEmail}>
+        <label>Name</label>
+        <input type="text" name="name" placeholder="Enter Your Name" required/>
+        <label>Email</label>
+        <input type="email" name="college" placeholder="Enter Your Email" required/>
+        <label>Message</label>
+        <input type="text" name="user_email" placeholder="Tell Something" required/>
+        
+        <div className="submit-button">
+        <button type="submit">Submit</button>
+        </div>
+        
+      </form>
+      )
+    }
+      
+      
     </StyledContactForm>
+    </div>
   );
 };
 
@@ -64,15 +98,18 @@ export default Footer;
 // Styles
 const StyledContactForm = styled.div`
   width: 900px;
-  height: 650px;
   align-items: right;
+
+  // form input{
+  //   margin-bottom: 10px
+  // }
 
   form {
     display: flex;
     align-items: flex-start;
     flex-direction: column;
     width: 90%;
-    margin-bottom: 200px;
+    margin-bottom: 2rem;
     font-size: 28px;
     color: white;
     font-family: var(--font-family);

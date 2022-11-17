@@ -9,7 +9,7 @@ const Blog = () => (
       <h1 className="gradient__text">A lot is happening, <br /> Check out our events.</h1>
       <br></br>
       <br></br>
-      <h1>Past Events</h1>
+      {/* <h1>Past Events</h1> */}
     </div>
     <div className="gpt3__blog-container">
       <div className="gpt3__blog-container_groupA">
@@ -17,9 +17,9 @@ const Blog = () => (
       </div>
       <div className="gpt3__blog-container_groupB">
         <Article imgUrl={blog02} date="Sep 26, 2021" text="Our 2nd offline event in the prestigious college of India IIIT Delhi. Our speaker Adithya Arora nurtures the students with his knowledge and experience." />
-        <Article imgUrl={blog03} date="Sep 26, 2021" />
-        <Article imgUrl={blog04} date="Sep 26, 2021" />
-        <Article imgUrl={blog05} date="Sep 26, 2021" />
+        <Article imgUrl={blog03} date="Sep 26, 2021" text="Our first offline event at NIET greater Noida. The event was very interactive and insightful with our speaker Mr. Paritosh Vatsal Tirupathi" />
+        <Article imgUrl={blog04} date="Sep 26, 2021" text="Wonderful session with Prasad Jivane interacting with students and solving their doubts."/>
+        <Article imgUrl={blog05} date="Sep 26, 2021" text="Wonderful session with Anirudh Palashkar about the Roadmap to UI/UX Designing" />
       </div>
     </div>
   </div>

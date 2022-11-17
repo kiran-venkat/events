@@ -2,7 +2,7 @@
 
 :root {
   --font-family: 'Manrope', sans-serif;
-
+  --global-top-margin: 200px;
   --gradient-text: #ffee00;
   --gradient-bar: #0084ff;
   --btn-color: #49a1eb;
@@ -11,4 +11,5 @@
   --color-blog: #646363;
   --color-text: #fdfffa;
   --color-subtext: #FF8A71;
+
 }

@@ -7,10 +7,10 @@ import "aos/dist/aos.css";
 AOS.init();
 
 const WhatGPT3 = () => (
-  <div className="gpt3__whatgpt3 section__margin" data-aos="fade-up" data-aos-duration="2000" id="wgpt3">
+  <div className="gpt3__whatgpt3" data-aos="fade-up" data-aos-duration="2000" id="wgpt3">
     <div className="gpt3__whatgpt3-feature">
       <Feature
-        title="EVNT's Mission"
+        title="EVNTORG's Mission"
         text="To build the world's most exclusive online university for building real-life skills and networking with the smartest people."
       />
     </div>

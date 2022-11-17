@@ -26,7 +26,7 @@ export default function SocialFollow() {
         className="instagram social">
         <FontAwesomeIcon icon={faInstagram} size="3x" />
       </a>
-      <a href="https://www.instagram.com/"
+      <a href="mailto:eventorg@gmail.com"
         className="email social">
         <FontAwesomeIcon icon={faEnvelope} size="3x" />
       </a>

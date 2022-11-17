@@ -1,5 +1,5 @@
 export { default as Blog } from './blog/Blog';
-export { default as Blog1 } from './blog1/Blog';
+// export { default as Blog1 } from './blog1/Blog';
 export { default as Features } from './features/Features';
 export { default as Footer } from './footer/Footer';
 export { default as Footer1 } from './footer1/Footer1';

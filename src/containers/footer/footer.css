@@ -14,23 +14,48 @@
     flex-direction: column;
 
     padding: -1rem;
-    margin: 5rem;
+    /* margin: 5rem; */
     border-radius: 1rem;
     background: rgb(1,41,112);
 
   }
 
+.form-container{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+  
+}
+
+form input{
+  margin-bottom: 30px;
+}
+
+.submit-button{
+  padding-top: 3rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
 .submit-button button{
-  background: #FF8A71;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 10px;
+  background: var(--btn-color);
+  font-size: 20px;
+  color: white;
+  font-weight: bolder;
 }
 
   .gpt3__contactus h1{
-    font-size: 54px;
+    font-size: 40px;
+    margin-bottom: 30px;
     line-height: -1px;
     font-weight: 700;
     font-family: var(--font-family);
     color: #E6EDF3;
-    margin-top: 2rem;
+    margin-top: 1rem;
 
 
 }
