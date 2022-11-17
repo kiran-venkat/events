@@ -1,7 +1,7 @@
 import React from "react";
 import Feature from "../../components/feature/Feature";
 import "./whatGPT3.css";
-import AOS from 'aos';
+import AOS from "aos";
 import "aos/dist/aos.css";
 
 AOS.init();
@@ -16,9 +16,8 @@ const WhatGPT3 = () => (
     </div>
     <div className="gpt3__whatgpt3-heading">
       <h1 className="wgpt3_text">
-        Our ultimate aim is to fill the gap between tier 3 and tier 1 colleges
-        by conducting dynamic events and empowering every student get access to
-        enhanced learning experience and amazing people.
+        Our ultimate aim is to fill the gap between tier 3 and tier 1 colleges by conducting dynamic events and
+        empowering every student get access to enhanced learning experience and amazing people.
       </h1>
     </div>
     <div className="gpt3__whatgpt3-container">
@@ -30,10 +29,7 @@ const WhatGPT3 = () => (
         title="Clubs"
         text="Students interact with similar mindsets of people with segregated different clubs."
       />
-      <Feature
-        title="Events"
-        text="Exclusive Events with Personalised Discussion with your Q/A"
-      />
+      <Feature title="Events" text="Exclusive Events with Personalised Discussion with your Q/A" />
       <Feature
         title="Speakers"
         text="Providing speakers and sponsors
