@@ -17,13 +17,7 @@ const Footer1 = () => (
     </div> */}
 
     <div className="gpt3__footer-links">
-      <div className="gpt3__footer-links_logo">
-        <p className="logo-text">EVNTORG</p> <br />
-        {/* <img src={gpt3Logo} alt="EventOrg" /> */}
-        <p>
-          evntorg@gmail.com, <br /> <br /> All Rights Reserved
-        </p>
-      </div>
+     
       <div className="gpt3__footer-links_div">
         {/* <h4>Links</h4>
         <p>Overons</p>
@@ -39,7 +33,7 @@ const Footer1 = () => (
       </div> */}
       <div className="gpt3__footer-links_div">
         <h4>Get in touch</h4>
-        <p>eventorg@gmail.com</p>
+        <p>evntorg@gmail.com</p>
         {/* <p>626620514</p>
         <p>9315677209</p> */}
         <p>New Delhi</p>

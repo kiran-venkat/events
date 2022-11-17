@@ -14,12 +14,14 @@ const Header = () => (
           Join <span className="gradient-text">India&apos;s</span> Largest Competetive Student Community
         </h1>
         <p>
-          Learn from top industry experts, build connections, join different
-          clubs, learn real time skills through our community.
+          Learn from top industry experts, build connections, join different clubs, learn real time skills through our
+          community.
         </p>
 
         <div className="gpt3__header-content__input">
-          <button type="button">Get Started</button>
+          <a href="#wgpt3">
+            <button type="button">Get Started</button>
+          </a>
         </div>
 
         {/* <div className="gpt3__header-content__people">

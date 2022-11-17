@@ -13,13 +13,13 @@ const Blog = () => (
     </div>
     <div className="gpt3__blog-container">
       <div className="gpt3__blog-container_groupA">
-        <Article imgUrl={blog01} date="Sep 26, 2021" text="Our 3rd offline event with GDSC club. The event was very interactive among the students. Response from the students was on the top." />
+        <Article imgUrl={blog01}  text="Our 3rd offline event with GDSC club. The event was very interactive among the students. Response from the students was on the top." />
       </div>
       <div className="gpt3__blog-container_groupB">
-        <Article imgUrl={blog02} date="Sep 26, 2021" text="Our 2nd offline event in the prestigious college of India IIIT Delhi. Our speaker Adithya Arora nurtures the students with his knowledge and experience." />
-        <Article imgUrl={blog03} date="Sep 26, 2021" text="Our first offline event at NIET greater Noida. The event was very interactive and insightful with our speaker Mr. Paritosh Vatsal Tirupathi" />
-        <Article imgUrl={blog04} date="Sep 26, 2021" text="Wonderful session with Prasad Jivane interacting with students and solving their doubts."/>
-        <Article imgUrl={blog05} date="Sep 26, 2021" text="Wonderful session with Anirudh Palashkar about the Roadmap to UI/UX Designing" />
+        <Article imgUrl={blog02}  text="Our 2nd offline event in the prestigious college of India IIIT Delhi. Our speaker Adithya Arora nurtures the students with his knowledge and experience." />
+        <Article imgUrl={blog03}  text="Our first offline event at NIET greater Noida. The event was very interactive and insightful with our speaker Mr. Paritosh Vatsal Tirupathi" />
+        <Article imgUrl={blog04}  text="Wonderful session with Prasad Jivane interacting with students and solving their doubts."/>
+        <Article imgUrl={blog05}  text="Wonderful session with Anirudh Palashkar about the Roadmap to UI/UX Designing" />
       </div>
     </div>
   </div>
