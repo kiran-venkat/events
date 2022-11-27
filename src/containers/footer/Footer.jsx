@@ -168,8 +168,8 @@ const Footer = () => {
               required
             />
 
-            <div className="submit-button">
-              <button type="submit">Submit</button>
+            <div type="submit" className="submit-button">
+              <button>Submit</button>
             </div>
           </form>
         ) : (
@@ -210,8 +210,8 @@ const Footer = () => {
               placeholder="Enter your phone number"
               required
             />
-            <div className="submit-button">
-              <button type="submit">Submit</button>
+            <div type="submit" className="submit-button">
+              <button >Submit</button>
             </div>
           </form>
         )}
