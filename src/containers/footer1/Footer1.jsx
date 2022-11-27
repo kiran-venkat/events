@@ -41,7 +41,7 @@ const Footer1 = () => (
     </div>
     <SocialFollow />
     <div className="gpt3__footer-copyright">
-      <p>@2022 EventOrg. All rights reserved.</p>
+      <p>@2022 EvntOrg. All rights reserved.</p>
     </div>
   </div>
 );
