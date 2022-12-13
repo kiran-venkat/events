@@ -81,7 +81,7 @@ const Footer = () => {
   };
 
   return (
-    <div id="form" className="form-container" data-aos="fade-up">
+    <div id="form" style={{ padding: "30px" }} className="form-container" data-aos="fade-up">
       <StyledContactForm className="gpt3__footer" id="footer">
         <div className="gpt3__contactus">
           <h1 className="contactus">Contact Us</h1>
@@ -211,7 +211,7 @@ const Footer = () => {
               required
             />
             <div type="submit" className="submit-button">
-              <button >Submit</button>
+              <button>Submit</button>
             </div>
           </form>
         )}

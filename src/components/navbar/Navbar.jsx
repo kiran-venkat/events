@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
 // import logo from '../../logo.svg';
 import "./navbar.css";
-import logo from "../../assets/evntno.png";
+import logo3 from "../../assets/logo3.png";
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
@@ -11,7 +11,7 @@ const Navbar = () => {
     <div className="gpt3__navbar">
       <div className="gpt3__navbar-links">
         <div className="gpt3__navbar-links_logo">
-          <img style={{ width: "200px", height: "150px" }} src={logo} />
+          <img style={{ width: "200px", height: "150px" }} src={logo3} />
           {/* <p className="logo-text">EVNTORG</p> */}
         </div>
         <div className="gpt3__navbar-links_container">
