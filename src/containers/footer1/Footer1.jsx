@@ -6,6 +6,7 @@ import "../../containers/socialfollow/SocialFollow";
 import SocialFollow from "../../containers/socialfollow/SocialFollow";
 import aryan from "../../assets/aryan.jpg";
 import kapil from "../../assets/kapil.jpg";
+import linktree from "../../assets/linktre.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 import puneet from "../../assets/puneet.jpg";
@@ -77,11 +78,11 @@ const Footer1 = () => (
 
     <div className="gpt3__footer-links">
       <div className="gpt3__footer-links_div">
-        {/* <h4>Links</h4>
-        <p>Overons</p>
-        <p>Social Media</p>
-        <p>Counters</p>
-        <p>Contact</p> */}
+        <a style={{ textDecoration: "none", color: "white", fontSize: "20px" }} href="https://linktr.ee/evntorg">
+          Linktr.ee
+        </a>
+        <br />
+        <img style={{ width: "200px", height: "200px" }} src={linktree} />
       </div>
       {/* <div className="gpt3__footer-links_div">
         <h4>Company</h4>
@@ -90,14 +91,32 @@ const Footer1 = () => (
         <p>Contact</p>
       </div> */}
       <div className="gpt3__footer-links_div">
-        <h4>Get in touch</h4>
-        <p>evntorg@gmail.com</p>
+        <h4 style={{ fontSize: "20px" }}>Get in touch</h4>
+        <p style={{ fontSize: "20px" }}>evntorg@gmail.com</p>
         {/* <p>626620514</p>
         <p>9315677209</p> */}
-        <p>New Delhi</p>
+        <p style={{ fontSize: "20px" }}>New Delhi</p>
       </div>
     </div>
     <SocialFollow />
+    <div
+      style={{
+        fontSize: "20px",
+        color: "white",
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+        flexDirection: "column",
+      }}
+    >
+      <h2>Drop Your valuable feedback here</h2>
+      <a
+        style={{ fontSize: "18px", color: "white", textDecoration: "none" }}
+        href="https://forms.gle/s86koygVufUuT8A69"
+      >
+        https://forms.gle/s86koygVufUuT8A69
+      </a>
+    </div>
     <div className="gpt3__footer-copyright">
       <p>@2022 EvntOrg. All rights reserved.</p>
     </div>
