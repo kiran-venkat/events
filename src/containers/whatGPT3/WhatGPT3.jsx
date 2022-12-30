@@ -7,7 +7,7 @@ import "aos/dist/aos.css";
 AOS.init();
 
 const WhatGPT3 = () => (
-  <div style={{height:"100%",width:"100%",display:"flex",justifyContent:"center",alignItems:"center"}}>
+  <div style={{ height: "100%", width: "100%", display: "flex", justifyContent: "center", alignItems: "center" }}>
     <div className="gpt3__whatgpt3" data-aos="fade-up" data-aos-duration="2000" id="wgpt3">
       <div className="gpt3px__whatgpt3-feature">
         <Feature
@@ -30,7 +30,7 @@ const WhatGPT3 = () => (
           title="Clubs"
           text="Students interact with similar mindsets of people with segregated different clubs."
         />
-        <Feature title="Events" text="Exclusive Events with Personalised Discussion with your Q/A" />
+        <Feature title="Events" text="Exclusive Events with Personalized  Discussion with your Q/A" />
         <Feature
           title="Speakers"
           text="Providing speakers and sponsors
