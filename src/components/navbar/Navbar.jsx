@@ -55,6 +55,11 @@ const Navbar = () => {
               Gallery
             </a>
           </p>
+          <p>
+            <a style={{ color: "rgb(1,41,112)" }} onClick={() => navigate("/feedback")}>
+              Feedback
+            </a>
+          </p>
         </div>
       </div>
       {/* <div className="gpt3__navbar-sign">
@@ -102,6 +107,9 @@ const Navbar = () => {
               </p>
               <p>
                 <a onClick={() => navigate("/gallery")}>Gallery</a>
+              </p>
+              <p>
+                <a onClick={() => navigate("/feedback")}>Feedback</a>
               </p>
             </div>
           </div>
