@@ -9,7 +9,7 @@ AOS.init();
 const featuresData = [
   {
     title: "Experienced industry experts",
-    text: "We onboard some sponsors and speakers to colleges for free.",
+    text: "We onboard some sponsors and speakers to colleges.",
   },
   {
     title: "Interactive learning",
