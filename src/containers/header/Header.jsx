@@ -11,7 +11,7 @@ const Header = () => (
     <div>
       <div className="gpt3__header-content">
         <h1 className="gradient__text">
-          Join <span className="gradient-text">India&apos;s</span> Largest Competetive Student Community
+          Join <span className="gradient-text">India&apos;s</span> Largest Competitive Student Community
         </h1>
         <p>
           Learn from top industry experts, build connections, join different clubs, learn real time skills through our
