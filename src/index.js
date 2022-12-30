@@ -14,6 +14,7 @@ ReactDOM.render(
     <Routes>
       <Route exact path="/" element={<App />} />
       <Route path="/gallery" element={<ImageGal />} />
+      <Route path="/feedback" element={<Footer />} />
     </Routes>
     <Footer1 />
   </BrowserRouter>,
