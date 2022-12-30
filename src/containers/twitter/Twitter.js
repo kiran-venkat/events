@@ -4,7 +4,7 @@ import { TwitterTweetEmbed } from "react-twitter-embed";
 const Twitter = () => {
   return (
     <div style={{ display: "flex", width: "100%", justifyContent: "space-evenly", flexWrap: "wrap" }}>
-      <div style={{ width: "500px" }}>
+      <div style={{ width: "450px" }}>
         <TwitterTweetEmbed tweetId="1595582850128293888" />
       </div>
       <div style={{ width: "400px" }}>
