@@ -112,9 +112,9 @@ const Footer1 = () => (
       <h2>Drop Your valuable feedback here</h2>
       <a
         style={{ fontSize: "18px", color: "white", textDecoration: "none" }}
-        href="https://forms.gle/s86koygVufUuT8A69"
+        href="https://forms.gle/U5iEQMgfeNj4DDVN8"
       >
-        https://forms.gle/s86koygVufUuT8A69
+        https://forms.gle/U5iEQMgfeNj4DDVN8
       </a>
     </div>
     <div className="gpt3__footer-copyright">
