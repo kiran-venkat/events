@@ -13,8 +13,8 @@ import puneet from "../../assets/puneet.jpg";
 import raghav from "../../assets/raghav.png";
 const Footer1 = () => (
   <div className="gpt3__footer1 section__padding">
-    <h4 style={{ color: "white", fontSize: "30px", marginBottom: "20px" }}>Creators of EvntOrg 🚀</h4>
-    <div className="container">
+    <h4 style={{ color: "white", fontSize: "30px", marginBottom: "20px" }}>Creators of EVNTORG 🚀</h4>
+    <div style={{ marginTop: "20px" }} className="container">
       <div className="indi">
         <img src={kapil} />
         <div className="text">
@@ -78,11 +78,13 @@ const Footer1 = () => (
 
     <div className="gpt3__footer-links">
       <div className="gpt3__footer-links_div">
-        <a style={{ textDecoration: "none", color: "white", fontSize: "20px" }} href="https://linktr.ee/evntorg">
+        <a
+          style={{ cursor: "pointer", textDecoration: "none", color: "white", fontSize: "20px" }}
+          href="https://linktr.ee/evntorg"
+        >
           Linktr.ee
+          <img style={{ width: "200px", height: "200px" }} src={linktree} />
         </a>
-        <br />
-        <img style={{ width: "200px", height: "200px" }} src={linktree} />
       </div>
       {/* <div className="gpt3__footer-links_div">
         <h4>Company</h4>

@@ -1,19 +1,19 @@
 .text {
   color: hsl(0, 0%, 28%);
-  font-size: 50px !important;
+  font-size: 20px !important;
   font-weight: bold !important;
   font-family: monospace;
-  letter-spacing: 7px !important;
+  /* letter-spacing: 7px !important; */
   cursor: pointer;
   text-transform: uppercase;
 }
 
 .text {
-  padding: 64px;
+  padding: 40px;
   background: linear-gradient(to right, hsl(0, 0%, 30%) 0, hsl(0, 0%, 100%) 10%, hsl(0, 0%, 30%) 20%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: shine 3s infinite linear;
+  animation: shine 10s infinite linear;
 }
 
 @keyframes shine {
