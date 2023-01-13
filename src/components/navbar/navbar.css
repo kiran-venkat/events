@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    background-color: white;
     padding: 2rem 6rem;
 }
 
@@ -146,3 +146,5 @@
         display: block;
     }
 }
+
+
