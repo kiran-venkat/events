@@ -127,14 +127,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    /* padding: 20px; */
     flex-direction: column;
     border-radius: 100px;
     flex-wrap: wrap;
 }
 .indi>img{
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     
    border-radius: 20px;
    border: 10px solid rgb(176, 148, 148);
@@ -145,11 +145,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 10px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .text>span{
-    font-size: 25px;
+    font-size: 20px;
 }
 @media screen and (max-width: 850px) {
     .gpt3__footer-heading h1 {
