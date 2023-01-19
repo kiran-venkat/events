@@ -123,7 +123,8 @@
 
 import React, { useState } from "react";
 import Box from "@mui/material/Box";
-import { Link as ScrollLink } from "react-scroll";
+import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from "react-scroll";
+
 import { navigations } from "./navigation.data";
 import curve from "./headline-curve.svg";
 import { useTheme } from "@mui/material/styles";
@@ -132,19 +133,20 @@ import Container from "@mui/material/Container";
 import IconButton from "@mui/material/IconButton";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import logo3 from "../../assets/logo3.png";
+import { useNavigate } from "react-router-dom";
 const Navbar = () => {
   const [visibleMenu, setVisibleMenu] = useState(false);
   const { breakpoints } = useTheme();
   const matchMobileView = useMediaQuery(breakpoints.down("md"));
-
+  const navigate = useNavigate();
   return (
-    <Box sx={{ backgroundColor: "background.paper" }}>
+    <Box sx={{ backgroundColor: "background.paper", width: "100%" }}>
       <Container sx={{ py: { xs: 2, md: 3 } }}>
         <Box sx={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>
           {/* <Logo /> */}
           <img
             onClick={() => navigate("/")}
-            style={{ width: "180px", height: "120px", cursor: "pointer" }}
+            style={{ width: "140px", height: "100px", cursor: "pointer" }}
             src={logo3}
           />
           <Box sx={{ ml: "auto", display: { xs: "inline-flex", md: "none" } }}>
@@ -172,58 +174,94 @@ const Navbar = () => {
               }),
             }}
           >
-            <Box /> {/* Magic space */}
+            {visibleMenu && matchMobileView && (
+              <img
+                onClick={() => navigate("/")}
+                style={{ width: "180px", height: "140px", cursor: "pointer" }}
+                src={logo3}
+              />
+            )}
+
+            <Box /> 
             <Box sx={{ display: "flex", flexDirection: { xs: "column", md: "row" } }}>
-              {navigations.map(({ path: destination, label }) => (
+              {navigations.map(({ path: destination, label, href }) => (
                 <Box
-                  component={ScrollLink}
-                  key={destination}
-                  activeClass="current"
-                  to={destination}
-                  spy={true}
-                  smooth={true}
-                  duration={350}
+                  // component={ScrollLink}
+                  // activeClass="current"
+                  // spy={true}
+                  // smooth={true}
+                  // duration={350}
                   sx={{
                     position: "relative",
                     color: "text.disabled",
                     cursor: "pointer",
                     fontWeight: 600,
-                    display: "inline-flex",
+                    display: "flex",
                     alignItems: "center",
                     justifyContent: "center",
                     px: { xs: 0, md: 3 },
                     mb: { xs: 3, md: 0 },
                     fontSize: { xs: "1.2rem", md: "inherit" },
-                    ...(destination === "/" && {
-                      color: "primary.main",
-                    }),
+                    // ...(destination === "/" && {
+                    //   color: "primary.main",
+                    // }),
 
-                    "& > div": { display: "none" },
+                    //   "& > div": { display: "none" },
 
-                    "&.current>div": { display: "block" },
+                    //   "&.current>div": { display: "block" },
 
-                    "&:hover": {
-                      color: "primary.main",
-                      "&>div": {
-                        display: "block",
-                      },
-                    },
+                    //   "&:hover": {
+                    //     color: "primary.main",
+                    //     "&>div": {
+                    //       display: "block",
+                    //     },
+                    //   },
                   }}
                 >
-                  <Box
-                    sx={{
-                      position: "absolute",
-                      top: 12,
-                      transform: "rotate(3deg)",
-                      "& img": { width: 44, height: "auto" },
-                    }}
+                  <Link
+                    onClick={() => navigate("/")}
+                    activeClass="active"
+                    className="test6"
+                    to={href}
+                    spy={true}
+                    smooth={true}
+                    duration={1000}
                   >
-                    {/* eslint-disable-next-line */}
-                    <img src={curve} alt="Headline curve" />
-                  </Box>
-                  {label}
+                    {label}
+                  </Link>
                 </Box>
               ))}
+              <Box
+                // component={ScrollLink}
+                // activeClass="current"
+                // spy={true}
+                // smooth={true}
+                // duration={350}
+                sx={{
+                  position: "relative",
+                  color: "text.disabled",
+                  cursor: "pointer",
+                  fontWeight: 600,
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  px: { xs: 0, md: 3 },
+                  mb: { xs: 3, md: 0 },
+                  fontSize: { xs: "1.2rem", md: "inherit" },
+                }}
+              >
+                <Link
+                  onClick={() => navigate("/gallery")}
+                  activeClass="active"
+                  className="test6"
+                  // to={href}
+                  spy={true}
+                  smooth={true}
+                  duration={1000}
+                >
+                  Gallery
+                </Link>
+              </Box>
             </Box>
             {visibleMenu && matchMobileView && (
               <IconButton

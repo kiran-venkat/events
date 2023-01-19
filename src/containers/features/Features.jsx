@@ -34,7 +34,10 @@ const featuresData = [
 ];
 
 const Features = () => (
-  <div style={{ height: "100%", width: "100%", display: "flex", justifyContent: "center", alignItems: "center" }}>
+  <div
+    id="features"
+    style={{ height: "100%", width: "100%", display: "flex", justifyContent: "center", alignItems: "center" }}
+  >
     <div className="gpt3__features" id="features" data-aos="fade-right">
       <div className="gpt3__features-heading">
         <h1 style={{ marginRight: "20px" }} className="gradient__text">
