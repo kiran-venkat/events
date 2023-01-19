@@ -13,7 +13,7 @@ import puneet from "../../assets/puneet.jpg";
 import raghav from "../../assets/raghav.png";
 const Footer1 = () => (
   <div id="contactus" className="gpt3__footer1 section__padding">
-    <h4 style={{ color: "white", fontSize: "30px", marginBottom: "20px" }}>Creators of EVNTORG 🚀</h4>
+    <h4 style={{ color: "white", fontSize: "28px", marginBottom: "20px" }}>Creators of EVNTORG 🚀</h4>
     <div style={{ marginTop: "20px" }} className="container">
       <div className="indi">
         <img src={kapil} />
