@@ -31,7 +31,9 @@ const App = () => (
         flexDirection: "column",
       }}
     >
-      <h1 style={{ color: "rgb(1,41,112)", fontSize: "40px", fontFamily: "monospace" }}>Twitter Space</h1>
+      <h1 style={{ textAlign: "center", color: "rgb(1,41,112)", fontSize: "40px", fontFamily: "monospace" }}>
+        Facebook & Twitter Space
+      </h1>
 
       <Twitter />
     </div>

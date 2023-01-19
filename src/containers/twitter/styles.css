@@ -2,7 +2,9 @@
   color:black;
   background-color: black;
  } */
-
+.socialContainer{
+  height: fit-content;
+}
 .tswipe-slide {
   display: flex;
   align-items: center;
@@ -14,6 +16,11 @@
   background-color: black; */
   height: 650px;
   width: 100px;
+}
+.tswiperContainer{
+  width: 600px;
+  height: 600px;
+  margin-bottom: 80px;
 }
 
 @media screen and (max-width: 600px) {
@@ -28,6 +35,10 @@
   background-color: black; */
     height: 780px;
     width: auto;
+  }
+  .tswiperContainer{
+    width: 400px;
+    margin-bottom: 200px;
   }
 }
 /* .tswipe-slide:nth-child(8n) {
