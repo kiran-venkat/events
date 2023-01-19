@@ -6,7 +6,7 @@ const Twitter = () => {
     <div style={{ display: "flex", width: "100%", justifyContent: "space-evenly", flexWrap: "wrap" }}>
       <div style={{ width: "400px" }}>
         <TwitterTweetEmbed tweetId="1510251764754546688" />
-        {/* <TwitterTweetEmbed tweetId="1605984179963002880" /> */}
+        <TwitterTweetEmbed tweetId="1605984179963002880" />
         <TwitterTweetEmbed tweetId="1595582850128293888" />
       </div>
       <div style={{ width: "450px" }}>
@@ -21,9 +21,9 @@ const Twitter = () => {
         {/* <TwitterTweetEmbed tweetId="1603327006866755584" /> */}
       </div>
 
-      <div style={{ width: "400px" }}>
+      {/* <div style={{ width: "400px" }}>
         <TwitterTweetEmbed tweetId="1606667939411005441" />
-      </div>
+      </div> */}
     </div>
   );
 };

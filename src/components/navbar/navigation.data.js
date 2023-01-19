@@ -1,18 +1,22 @@
 export const navigations = [
   {
     label: "Home",
-    path: "#", // '/',
+    path: "/",
+    href: "home", // '/',
   },
   {
     label: "Mission",
-    path: "#mission", // '/popular-course',
+    path: "/",
+    href: "wgpt3", // '/popular-course',
   },
   {
     label: "Features",
-    path: "testimonial", // '/testimonial',
+    path: "/",
+    href: "features", // '/testimonial',
   },
   {
     label: "Contact Us",
-    path: "mentors", // '/mentors',
+    path: "/",
+    href: "contactus", // '/mentors',
   },
 ];
