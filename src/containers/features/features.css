@@ -12,7 +12,7 @@
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column;
-    background-image: url(../../assets/wave2.svg);
+    /* background-image: url(../../assets/wave2.svg); */
     background-size: cover;
     background-repeat: no-repeat;
     text-align: left;
@@ -42,6 +42,7 @@
     align-items: left;
     flex-direction: column;
     background-color: rgb(1,41,112);
+    border-radius: 20px;
     
 }
 

@@ -9,7 +9,16 @@ AOS.init();
 
 const WhatGPT3 = () => (
   <Element name="mission" className="element">
-    <div style={{ height: "100%", width: "100%", display: "flex", justifyContent: "center", alignItems: "center" }}>
+    <div
+      style={{
+        height: "100%",
+        width: "100%",
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+        borderRadius: "20px",
+      }}
+    >
       <div className="gpt3__whatgpt3" id="wgpt3">
         <div className="gpt3px__whatgpt3-feature">
           <Feature
