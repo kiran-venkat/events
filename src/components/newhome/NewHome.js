@@ -110,7 +110,7 @@ const HomeHero = () => {
                         <img data-aos="fade-in" src={img2} alt="Headline curve" />
                       </Box>
                     </Typography>
-                    India's
+                    <span className="gradient-text">India&apos;s</span>
                     <Typography
                       component="span"
                       sx={{

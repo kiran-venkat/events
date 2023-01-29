@@ -32,7 +32,7 @@ const App = () => (
       }}
     >
       <h1 style={{ textAlign: "center", color: "rgb(1,41,112)", fontSize: "40px", fontFamily: "monospace" }}>
-        Facebook & Twitter Space
+        Twitter Space
       </h1>
 
       <Twitter />

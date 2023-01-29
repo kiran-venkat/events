@@ -182,7 +182,7 @@ const Navbar = () => {
               />
             )}
 
-            <Box /> 
+            <Box />
             <Box sx={{ display: "flex", flexDirection: { xs: "column", md: "row" } }}>
               {navigations.map(({ path: destination, label, href }) => (
                 <Box
@@ -219,7 +219,7 @@ const Navbar = () => {
                   }}
                 >
                   <Link
-                    onClick={() => navigate("/")}
+                    onClick={(() =>  navigate("/"))}
                     activeClass="active"
                     className="test6"
                     to={href}
