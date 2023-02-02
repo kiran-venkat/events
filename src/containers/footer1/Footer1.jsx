@@ -31,7 +31,7 @@ const Footer1 = () => (
           <span>Founder & CEO</span>
         </div>
       </div>
-      <div className="indi">
+      {/* <div className="indi">
         <img src={aryan} />
         <div className="text">
           <p>
@@ -42,7 +42,7 @@ const Footer1 = () => (
           </p>
           <span>CTO</span>
         </div>
-      </div>
+      </div> */}
       <div className="indi">
         <img src={puneet} />
         <div className="text">
